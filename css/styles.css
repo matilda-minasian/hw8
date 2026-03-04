@@ -1,0 +1,121 @@
+/* Color Palette
+# - color 1 DAF0EE
+# - color 2 9DB5B2
+# - color 3 3B413C
+# - color 4 FFFFFF
+*/
+
+/* Global styles 
+------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding:50px;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Zalando Sans SemiExpanded', sans-serif;
+    font-weight: 564;
+    font-style: italic;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Zalando Sans SemiExpanded', sans-serif;
+    font-weight: 564;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+h3{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 528;
+    font-style: normal;
+    font-variation-settings: 'YOPQ' 162;
+    font-size: 20px;
+}
+
+.bold-paragraph {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+.profile-img {
+    border-radius: 50%;
+}
+header {
+    background-color: #9DB5B2;
+}
+footer{
+    background-color: #3b413b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.contact-info a{
+    color: #ffffff;
+    display: inline-block;
+}
+
+#about {
+    background-color: #9DB5B2;
+    padding: 20px;
+}
+
+header h1,h2{
+    margin:0px;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Work Experience
+------------------------------------*/
+
+#work {
+    background-color: #DAF0EE;
+    padding: 20px;
+}
+
+
+
+/* Education
+------------------------------------*/
+#education {
+    background-color: #9DB5B2;
+    padding: 20px;
+}
