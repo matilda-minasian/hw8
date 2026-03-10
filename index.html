@@ -8,13 +8,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@528,162&family=Zalando+Sans+SemiExpanded:ital,wght@1,564&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/f5a63d37fe.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- // Intro -->
     <header>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#work"> Work Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+                <a href="resources/Tech_Resume_2026.pdf" target="_blank">Download Resume</a>
+            </nav>
             <div class="content-wrap">
                 <img src="images/matilda_pic.JPG" alt="Matilda Minasian" class="profile-img column-narrow">
-                <div class="column-wide">
+                <div id= "about" class="column-wide">
                     <h1>Matilda Minasian</h1>
                     <h2>Master of Science Student in Software Engineering</h2>
                     <p>
@@ -63,7 +71,7 @@
                 <div class="column-narrow">
                     <h3>Specialist</h3>
                     <p class="bold-paragraph">Apple Inc</p>
-                    <p class="bold-paragraph">11/2023 - 05/2024, 08/2025 - 01/2026</p>
+                    <p class="bold-paragraph">11/2023 - 05/2024,<br> 08/2025 - 01/2026</p>
                 </div> 
                 <!-- Add as many paragraphs as you need. -->
                 <div class="column-wide">
@@ -147,37 +155,40 @@
 
         <!-- // Education -->
         <section id="education">
-            <div class="content-wrap">
-                <h2>Education</h2>
+            <div class="img-bg">
+                <div class="content-wrap alpha-bg">
+                    <h2>Education</h2>
 
-                <!-- School details: copy this whole block to add more schools. -->
-                <h3>California State University, Northridge 2025-2027</h3>
-                <p class="bold-paragraph">Master of Science in Software Engineering</p>
-                
-                <!-- Add as many paragraphs as you need. -->
-                <p>
-                    I am currently pursuing a Master of Science in Software Engineering, 
-                    where I am deepening my understanding of scalable system design, software
-                    architecture, and advanced development practices. My graduate studies focus
-                    on building reliable, maintainable systems while strengthening skills in collaboration,
-                    testing methodologies, and modern development frameworks. Through project-based work, 
-                    I continue to refine my ability to design efficient, real-world solutions to complex 
-                    technical challenges.
-                </p>
+                    <!-- School details: copy this whole block to add more schools. -->
+                    <h3>California State University, Northridge 2025-2027</h3>
+                    <p class="bold-paragraph">Master of Science in Software Engineering</p>
+                    
+                    <!-- Add as many paragraphs as you need. -->
+                    <p>
+                        I am currently pursuing a Master of Science in Software Engineering, 
+                        where I am deepening my understanding of scalable system design, software
+                        architecture, and advanced development practices. My graduate studies focus
+                        on building reliable, maintainable systems while strengthening skills in collaboration,
+                        testing methodologies, and modern development frameworks. Through project-based work, 
+                        I continue to refine my ability to design efficient, real-world solutions to complex 
+                        technical challenges.
+                    </p>
 
-                <h3>California State Polytechnic University, Pomona 2021-2023</h3>
-                <p class="bold-paragraph">Bachelor of Science in Computer Science</p>
-                
-                <!-- Add as many paragraphs as you need. -->
-                <p>
-                    I earned my Bachelor of Science in Computer Science, where I built a strong foundation
-                    in data structures, algorithms, software engineering, and systems design. Through 
-                    hands-on projects and collaborative coursework, I developed experience building full-stack
-                    applications, working with APIs, and applying best practices in accessibility and scalable
-                    system design. My academic experience emphasized problem-solving, teamwork, and translating
-                    technical concepts into practical solutions.
-                </p>
+                    <h3>California State Polytechnic University, Pomona 2021-2023</h3>
+                    <p class="bold-paragraph">Bachelor of Science in Computer Science</p>
+                    
+                    <!-- Add as many paragraphs as you need. -->
+                    <p>
+                        I earned my Bachelor of Science in Computer Science, where I built a strong foundation
+                        in data structures, algorithms, software engineering, and systems design. Through 
+                        hands-on projects and collaborative coursework, I developed experience building full-stack
+                        applications, working with APIs, and applying best practices in accessibility and scalable
+                        system design. My academic experience emphasized problem-solving, teamwork, and translating
+                        technical concepts into practical solutions.
+                    </p>
+                </div>
             </div>
+         
             <!-- End of school details. -->
         </section>
     </main>
@@ -189,9 +200,9 @@
             
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class = "contact-info">
-                <a href="mailto:minasianmatilda@gmail.com">minasianmatilda@gmail.com</a>
-                <a href="https://github.com/matilda-minasian" target="_blank">GitHub Profile</a>
-                <a href="https://www.linkedin.com/in/matilda-minasian/" target="_blank">LinkedIn</a>
+                <a href="mailto:minasianmatilda@gmail.com"><i class="fa-regular fa-envelope"></i> minasianmatilda@gmail.com</a>
+                <a href="https://github.com/matilda-minasian" target="_blank"><i class="fa-brands fa-github"></i> GitHub Profile</a>
+                <a href="https://www.linkedin.com/in/matilda-minasian/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
             </div>
 
             <p>Copyright 2025 by Matilda Minasian</p>

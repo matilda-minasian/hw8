@@ -22,6 +22,7 @@ body {
     max-width: 950px;
     margin: 0 auto;
     padding:50px;
+    padding-top: 80px;
     overflow: hidden;
 }
 
@@ -57,11 +58,26 @@ h3{
 
 /* Header & Footer 
 ------------------------------------*/
+nav{
+    background-color: #3b413b;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    height: 45px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    font-size: 18px;
+}
+    
 .profile-img {
     border-radius: 50%;
 }
 header {
     background-color: #9DB5B2;
+    text-align: center;
 }
 footer{
     background-color: #3b413b;
@@ -72,7 +88,7 @@ footer{
 
 footer a {
     color: #ffffff;
-    margin: 0 10px;
+    margin: 15px 10px;
     font-size: 16px;
 }
 
@@ -82,8 +98,7 @@ footer a {
 }
 
 #about {
-    background-color: #9DB5B2;
-    padding: 20px;
+    background-color: #9db5b2;
 }
 
 header h1,h2{
@@ -107,7 +122,7 @@ header h1,h2{
 ------------------------------------*/
 
 #work {
-    background-color: #DAF0EE;
+    background-color: #daf0ee;
     padding: 20px;
 }
 
@@ -117,5 +132,15 @@ header h1,h2{
 ------------------------------------*/
 #education {
     background-color: #9DB5B2;
+}
+
+.img-bg{
+    background: url("../images/csun.jpeg") no-repeat fixed 0px 0px;
     padding: 20px;
+    background-size: cover;
+}
+
+.alpha-bg{
+    background: linear-gradient(rgba(218, 240, 238, 0.8),rgba(157, 181, 178,0.8));
+    background-size: cover;
 }
